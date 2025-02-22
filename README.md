@@ -80,6 +80,7 @@ Once the feature engineering is complete, we use the following machine learning 
 - **Random Forest**: An ensemble method that uses multiple decision trees to improve classification accuracy and reduce overfitting.
 - **Logistic Regression**: A statistical model that predicts the probability of a password belonging to a specific strength class.
 - **Support Vector Machine (SVM)**: A model that finds the optimal hyperplane to separate password strength classes in a high-dimensional space.
+  
 Each of these models is trained on the engineered password features to classify passwords into "weak," "average," or "strong" categories.
 
 Each of these models is trained on the password features and evaluated using various performance metrics.

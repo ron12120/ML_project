@@ -76,10 +76,10 @@ The length of a password is an important factor in determining its strength. Lon
 
 Once the feature engineering is complete, we use the following machine learning algorithms to classify passwords:
 
-K-Nearest Neighbors (KNN): A distance-based classifier that predicts password strength by finding the nearest neighbors in the feature space.
-Random Forest: An ensemble method that uses multiple decision trees to improve classification accuracy and reduce overfitting.
-Logistic Regression: A statistical model that predicts the probability of a password belonging to a specific strength class.
-Support Vector Machine (SVM): A model that finds the optimal hyperplane to separate password strength classes in a high-dimensional space.
+- **K-Nearest Neighbors (KNN)**: A distance-based classifier that predicts password strength by finding the nearest neighbors in the feature space.
+- **Random Forest**: An ensemble method that uses multiple decision trees to improve classification accuracy and reduce overfitting.
+- **Logistic Regression**: A statistical model that predicts the probability of a password belonging to a specific strength class.
+- **Support Vector Machine (SVM)**: A model that finds the optimal hyperplane to separate password strength classes in a high-dimensional space.
 Each of these models is trained on the engineered password features to classify passwords into "weak," "average," or "strong" categories.
 
 Each of these models is trained on the password features and evaluated using various performance metrics.

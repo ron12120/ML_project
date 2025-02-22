@@ -74,38 +74,13 @@ The length of a password is an important factor in determining its strength. Lon
 
 ## Machine Learning Models
 
-Once the feature engineering is complete, we use various machine learning algorithms including the ones seen in the course to classify passwords. We use `LazyClassifier`, which automatically trains and evaluates multiple machine learning models with minimal code. The models employed are:
+Once the feature engineering is complete, we use the following machine learning algorithms to classify passwords:
 
-- **LinearSVC**  
-- **SGDClassifier**  
-- **MLPClassifier**  
-- **Perceptron**  
-- **LogisticRegression**  
-- **LogisticRegressionCV**  
-- **SVC**  
-- **CalibratedClassifierCV**  
-- **PassiveAggressiveClassifier**  
-- **LabelPropagation**  
-- **LabelSpreading**  
-- **RandomForestClassifier**  
-- **GradientBoostingClassifier**  
-- **QuadraticDiscriminantAnalysis**  
-- **HistGradientBoostingClassifier**  
-- **RidgeClassifierCV**  
-- **RidgeClassifier**  
-- **AdaBoostClassifier**  
-- **ExtraTreesClassifier**  
-- **KNeighborsClassifier**  
-- **BaggingClassifier**  
-- **BernoulliNB**  
-- **LinearDiscriminantAnalysis**  
-- **GaussianNB**  
-- **NuSVC**  
-- **DecisionTreeClassifier**  
-- **NearestCentroid**  
-- **ExtraTreeClassifier**  
-- **CheckingClassifier**  
-- **DummyClassifier**  
+K-Nearest Neighbors (KNN): A distance-based classifier that predicts password strength by finding the nearest neighbors in the feature space.
+Random Forest: An ensemble method that uses multiple decision trees to improve classification accuracy and reduce overfitting.
+Logistic Regression: A statistical model that predicts the probability of a password belonging to a specific strength class.
+Support Vector Machine (SVM): A model that finds the optimal hyperplane to separate password strength classes in a high-dimensional space.
+Each of these models is trained on the engineered password features to classify passwords into "weak," "average," or "strong" categories.
 
 Each of these models is trained on the password features and evaluated using various performance metrics.
 

@@ -88,7 +88,7 @@ Each of these models is trained on the password features and evaluated using var
 
 ## Model Evaluation
 
-After training the models, we evaluate their performance and their runtime.
+After training the models, we evaluate their performance and their accuracy.
 
 ## Findings
 
